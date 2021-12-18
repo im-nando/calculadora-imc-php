@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: rgb(18, 18, 20);
+}
+
+.title {
+  font-size: 40px;
+  padding-bottom: 13px;
+}
+
+.imcform {
+  background-color: #202024;
+  display: block;
+  position: relative;
+  text-align: center;
+  width: 500px;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 10%;
+  border-radius: 5px;
+}
+
+form {
+  margin-top: 15px;
+}
+
+.text-input {
+  width: 150px;
+  height: 35px;
+  border-radius: 7px;
+  color: #fff;
+  background-color: #121214;
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 8px;
+  margin-bottom: 10px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #202024;
+  transition: 0.3s;
+}
+
+.text-input:hover {
+  border-color: rgb(130, 87, 229);
+}
+
+.text-input:focus {
+  outline: none !important;
+  border-color: rgb(130, 87, 229);
+}
+
+.calc-button {
+  color: #fff;
+  background-color: #202024;
+  border-color: rgb(130, 87, 229);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  width: 100px;
+  height: 40px;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.35s;
+}
+
+.calc-button:hover {
+  background-color: rgb(130, 87, 229);
+}
+
+label {
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/*Responsividade*/
+@media (max-width: 600px) {
+  .imcform {
+    width: 98%;
+  }
+}
